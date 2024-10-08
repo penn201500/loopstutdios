@@ -10,9 +10,12 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                sans: ['Josefin Sans', 'sans-serif'],
-                alata: ['Alata']
-            }
+                sans: ["Josefin Sans", "sans-serif"],
+                alata: ["Alata"],
+            },
+            letterSpacing: {
+                widest: ".5em",
+            },
         },
     },
     plugins: [],
